@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unversity-Design</title>
+    
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,200;1,400;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/eduford_img/logo.png"></a>
+            <div class="nav-link" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                     <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="Showmanu()" ></i>
+        </nav>
+
+        <h1>Our Courses</h1>
+    </section>
+<!-- ---------COURSE--------- -->
+
+<section class="COURSE">
+<h1>Course we Offer</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+<div class="row">
+    <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam placeat qui error soluta in quisquam.</p>
+
+    </div>
+    <div class="course-col">
+        <h3>Degree</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam placeat qui error soluta in quisquam.</p>
+        
+    </div>
+    <div class="course-col">
+        <h3>Post Graduation</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam placeat qui error soluta in quisquam.</p>
+        
+    </div>
+</div>
+</section>
+
+<!-- -------facilities------ -->
+<section class="Facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, quidem</p>
+    <div class="row">
+        <div class="Facilities-col">
+            <img src="img/eduford_img/library.png">
+            <h3>World class Libery</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus necessitatibus, odio repellendus distinctio sint beatae!</p>
+        </div>
+
+        <div class="Facilities-col">
+            <img src="img/eduford_img/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus necessitatibus, odio repellendus distinctio sint beatae!</p>
+        </div>
+
+        <div class="Facilities-col">
+            <img src="img/eduford_img/cafeteria.png">
+            <h3>Testy and Healthy Food</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus necessitatibus, odio repellendus distinctio sint beatae!</p>
+        </div>
+
+    </div>
+</section>
+   
+<section class="Footer">
+  <h4></h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum obcaecati facilis quae fugit <br>soluta optio ipsum perspiciatis omnis blanditiis minus reprehenderit quas culpa quod voluptas aliquid perferendis sed, consequatur laudantium aperiam ab cupiditate possimus corrupti. Quibusdam perferendis doloribus ad soluta.</p>
+   <div class="icons">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+   </div>
+   <p>Meade With<i class="fa-regular fa-heart"></i> by Souvik Das</p>
+</section>
+<script>
+        var navlinks =document.getElementById("navlinks");
+        function Showmanu(){
+            navlinks.style.right="0";
+        }function hidemenu(){
+            navlinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
